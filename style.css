@@ -584,7 +584,7 @@ input[type="submit"]:active {
   }
 
   nav {
-    height: 150px;
+    height: auto;
   }
 
   nav img {

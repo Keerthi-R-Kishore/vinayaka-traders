@@ -284,6 +284,10 @@ nav img {
   margin-bottom: 25px;
 }
 
+.branches__cities figure img {
+  width: 100%;
+}
+
 .branches__details div {
   margin-bottom: 10px;
 }
@@ -500,7 +504,7 @@ footer a {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.98);
+  background-color: rgba(37, 37, 37, 0.685);
   -webkit-box-shadow: 0 2px 2px #efefef;
   box-shadow: 0 2px 2px #efefef;
   z-index: 9999;
@@ -517,7 +521,7 @@ footer a {
 
 .sticky .main-nav a:link,
 .sticky .main-nav a:visited {
-  color: #000;
+  color: rgb(236, 236, 236);
 }
 
 /*BUTTONS*/
@@ -584,7 +588,7 @@ input[type="submit"]:active {
   }
 
   nav {
-    height: auto;
+    height: 200px;
   }
 
   nav img {
@@ -655,6 +659,7 @@ input[type="submit"]:active {
 
   input[type="checkbox"] {
     margin-left: 0;
+    margin-bottom: 15px;
   }
 
   input[type="text"],
@@ -691,7 +696,7 @@ input[type="submit"]:active {
 
   .sticky .fa-times,
   .sticky .fa-bars {
-    color: #000;
+    color: rgb(255, 255, 255);
   }
 }
 
@@ -712,6 +717,7 @@ input[type="submit"]:active {
     height: 30px;
     width: 30px;
     padding: 0;
+    margin: 10px;
   }
 
   .how-it-works__steps {

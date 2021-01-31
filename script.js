@@ -20,6 +20,7 @@ const offer = document.querySelector(".offers");
 //MOBILE NAVIGATION MENU
 
 mobileMenu.addEventListener("click", function () {
+  console.log("CLICKED NAV");
   if (icon.classList.contains("fa-bars")) {
     icon.classList.remove("fa-bars");
     icon.classList.add("fa-times");
